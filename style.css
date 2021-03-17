@@ -1,0 +1,66 @@
+
+body {
+	background: green;
+	margin: 0;
+	margin-top: 10vh;
+	display: flex;
+	flex-direction: column;
+
+}
+
+nav	{
+	position: fixed;
+	background: black;
+	
+	height: 10vh;
+	top: 0;
+	width: 100%;
+}
+
+nav ul{
+	padding: 0;
+	display: flex;
+	background: green;
+	height: 100%;
+	margin: 0;
+}
+
+nav ul li {
+	padding: 0 50px;
+	list-style: none;
+
+
+}
+
+nav ul a {
+	text-decoration: none;
+	color: grey;
+
+}
+
+nav ul a:hover {
+	background: red
+
+}
+
+section {
+	width: 100vw;
+}
+
+#section-about {
+	background: blue;
+		height: 100vh;
+
+}
+
+#section-work {
+	background: yellow;
+		height: 100vh;
+
+}
+
+#section-contact {
+	background: cyan;
+		height: 90vh;
+
+}
