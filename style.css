@@ -64,3 +64,20 @@ section {
 		height: 90vh;
 
 }
+
+.contact-img {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;	
+}
+
+a {
+	text-decoration: none;
+
+}
+
+.work-sec{
+	border: solid;
+	width: 100px;
+	height: 100px;
+}
