@@ -5,7 +5,8 @@
 	include "pass.php";
 	
 	$mysqli = new mysqli($host, $user, $pass, $db);
-	$result = $mysqli->query("SELECT * FROM " . $table .  " WHERE " . $pip . " = PIP AND " . $ci . " = CI"); 
+	$query = "SELECT * FROM " . $table .  " WHERE " . $pip . " = PIP AND " . $ci . " = CI";
+	$result = $mysqli->query($query); 
 	$row = $result->fetch_assoc();
 	
 	include "arrays.php";
