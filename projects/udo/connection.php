@@ -1,18 +1,32 @@
 <?php 
 	
 	$pip = $_POST["pip"];
-	echo "<h1>hey " . $pip . "</h1>";
-
+	$ci = $_POST["ci"];
 	include "pass.php";
 	
 	$mysqli = new mysqli($host, $user, $pass, $db);
-	$result = $mysqli->query("SELECT * FROM " . $table .  " WHERE " . $pip . " = PIP"); 
+	$result = $mysqli->query("SELECT * FROM " . $table .  " WHERE " . $pip . " = PIP AND " . $ci . " = CI"); 
 	$row = $result->fetch_assoc();
 	
+	include "arrays.php";
 
-	$name =  $row["NOMBRES"];
-	$last_name = $row["APELLIDOS"];
-	echo $name . " " .$last_name;
+	$test = array(
+		$student_data, 
+		$project_data,
+		$corrections,
+		$juries,
+		$approval
+	);
 
-	//$ = $row[""]
+	// print arrays
+	echo "--------------------------<br>";		
+	for ($i=0; $i < count($test); $i++) {		
+		foreach ($test[$i] as $key => $value) {
+			if (strlen($value) >= 1 ) {
+				echo  $key . " = " .$value ." "  . "<br>";
+			}			
+		}
+		echo "--------------------------<br>";		
+	}
+
 ?>
