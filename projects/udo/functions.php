@@ -7,7 +7,7 @@
 			<li><a href="">Programas</a></li>
 			<li><a href="degree.php">Grado</a></li>
 			<li><a href="">Contacto</a></li>
-			<li><a href="">Sobre la página</a></li>
+			<li><a href="about.php">Sobre la página</a></li>
 		</ul>';
 	}
 
