@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<meta charset="utf-8">
+	<?php 
+		include "functions.php";
+		print_meta("Requisitos para el acto de grado");
+	?>
 </head>
 <body>
 <?php 
-	include "functions.php";
+	
 	print_nav();
 ?>
 <h2>Grupo 1 (original)</h2>

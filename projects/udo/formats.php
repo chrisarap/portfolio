@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Formatos</title>
-	<meta charset="utf-8">
-	<link rel="shortcut icon" href="img/udo.png"> 
-
+	<?php 
+		include "functions.php";
+		print_meta("Formatos");
+	?>
 </head>
 <body>
 <nav>
 	<?php 
-		include "functions.php";
 		print_nav();
 	 ?>
 </nav>

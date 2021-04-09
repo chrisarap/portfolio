@@ -11,6 +11,13 @@
 		</ul>';
 	}
 
+	function print_meta($title = "standard title"){
+		echo 
+		'<title>' . $title . '</title>
+		<meta charset="utf-8">
+		<link rel="icon" href="projects/udo/img/udo.png">';
+	}
+
 	function formats(){		
 		$formats =array(
 			'CTGIP - 01'		=>'https://drive.google.com/open?id=1tmKuvIqw_XhP-X-5PwKZS68ZEYhe6F8o',

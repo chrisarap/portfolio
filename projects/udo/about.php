@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sobre la página</title>
-	<meta charset="utf-8">
-	<link rel="icon" href="projects/udo/img/udo.png">
+	<?php 
+		include "functions.php";
+		print_meta("Información sobre la página");
+	?>
 </head>
 <body>
-<?php 
+	<?php 
+		print_nav();
 
-include "functions.php";
-print_nav();
-
-?>
+	?>
 </body>
 </html>

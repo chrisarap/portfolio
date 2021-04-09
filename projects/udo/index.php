@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Comisión de Trabajos de Grado</title>
-	<meta charset="utf-8">
-	<link rel="icon" href="projects/udo/img/udo.png">
+	<?php 
+		include "functions.php";
+		print_meta("Comisión de Trabajos de Grado");
+	?>
 </head>
 <body>
 
@@ -12,7 +13,6 @@
 	
 	<nav>	
 		<?php 
-			include "functions.php";
 			print_nav();
 		?>	
 	</nav>
