@@ -80,3 +80,22 @@ a {
 	width: 100px;
 	height: 100px;
 }
+
+#certificates {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	padding: 5px;
+}
+
+.certificate {
+	width: 500px;
+	height: 400px;
+	margin: 5px;
+}
+
+.projects{
+	width: 100%;
+	height: 100%;
+}
