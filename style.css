@@ -29,7 +29,9 @@ body {
 #section-work {
 	border: solid;
 	background: darkred;
+	
 	padding: 100px 0;
+	margin: 100px 0;
 	
 	display: flex;
 	justify-content: center;
@@ -63,8 +65,31 @@ body {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	
+
 }
+
+/*****************************************
+************  technologies  **************
+******************************************/
+
+#section-tech {
+	border: solid;
+	background: blue;
+
+	padding: 100px 0;
+	margin: 100px 0;
+
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tech_logo {
+	width: 200px;
+	height: 200px;
+}
+
 
 /*
 body {
