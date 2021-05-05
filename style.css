@@ -90,6 +90,29 @@ body {
 	height: 200px;
 }
 
+/*****************************************
+************  certificate ****************
+******************************************/
+
+#section-certificate {
+	border: solid;
+	background: orange;
+
+	padding: 100px 0;
+	margin: 100px 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+
+.certificate {
+	width: 400px;
+	height: 400px;
+	margin: 10px;
+}
 
 /*
 body {
