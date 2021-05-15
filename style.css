@@ -91,13 +91,61 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 
 	height: 100vh;
+	border: solid;
 }
 
 .tech_logo {
 	width: 100px;
 	height: 100px;
+}
+
+.tech-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bar {
+	background: red;
+	width: 500px;
+	height: 50px;
+	margin: 10px 0;
+	display: flex;
+	margin: 0 10px;
+
+}
+
+.bar-html {
+	background: blue;
+	width: 90%;
+	height: 50px;
+}
+
+.bar-css {
+	background: blue;
+	width: 70%;
+	height: 50px;
+}
+
+.bar-js {
+	background: blue;
+	width: 70%;
+	height: 50px;
+}
+
+.bar-php {
+	background: blue;
+	width: 60%;
+	height: 50px;
+}
+
+.bar-sql {
+	background: blue;
+	width: 45%;
+	height: 50px;
 }
 
 /*****************************************
@@ -195,3 +243,4 @@ nav ul {
 .nav-link:hover {
 	background: darkred;
 }
+
