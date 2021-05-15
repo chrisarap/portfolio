@@ -85,7 +85,7 @@
 <section id="section-tech" class="section">
 	
 	<div class="tech-box">
-		<img class="tech_logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpngGRjYX1ca7qAADU3K6eGLj7ShQE3L2otdzfryl_Y9Ht2QRoQKYQbsXd36XIxMbYOw0&usqp=CAU">
+		<img class="tech_logo" src="https://img-premium.flaticon.com/png/512/888/888909.png?token=exp=1621087904~hmac=fe1849cb302eaa4d892fd28cec819d7e">
 		<div class="bar">
 			<div class="bar-html"></div>
 			<p>90%</p>
@@ -93,7 +93,7 @@
 	</div>
 
 	<div class="tech-box">
-		<img class="tech_logo" src="http://1000marcas.net/wp-content/uploads/2021/02/CSS-Logo.png">
+		<img class="tech_logo" src="https://img-premium.flaticon.com/png/512/888/888897.png?token=exp=1621088142~hmac=cb32dfb0503c47e3c1329fbea733eea8">
 		<div class="bar">	
 			<div class="bar-css"></div>
 			<p>70%</p>
@@ -101,7 +101,7 @@
 	</div>
 
 	<div class="tech-box">
-		<img class="tech_logo" src="https://ayudawp.com/wp-content/uploads/2017/01/javascript-logo-escudo.png">
+		<img class="tech_logo" src="https://img-premium.flaticon.com/png/512/1199/1199124.png?token=exp=1621087944~hmac=7569bf3bf8e0e3400ac814b5c9ddef9b">
 		<div class="bar">
 			<div class="bar-js"></div>
 			<p>70%</p>
@@ -109,7 +109,7 @@
 	</div>
 
 	<div class="tech-box">
-		<img class="tech_logo" src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg">
+		<img class="tech_logo" src="https://img-premium.flaticon.com/png/512/528/528261.png?token=exp=1621087652~hmac=8837fd7e4fc66068b7b4c20d78da9e1e">
 		<div class="bar">			
 			<div class="bar-php"></div>
 			<p>60%</p>
@@ -117,7 +117,7 @@
 	</div>
 
 	<div class="tech-box">
-		<img class="tech_logo" src="https://blog.desafiolatam.com/wp-content/uploads/2018/05/sql-logo.png">
+		<img class="tech_logo" src="https://img-premium.flaticon.com/png/512/4248/4248443.png?token=exp=1621087647~hmac=6cf110cd0b3115690b734683cf1fe4c9">
 		<div class="bar">		
 			<div class="bar-sql"></div>
 			<p>45%</p>
