@@ -136,9 +136,10 @@ body {
 }
 
 .contact-img {
-	width: 100px;
-	height: 100px;
+	width: 50px;
+	height: 50px;
 	border-radius: 50%;
+	margin: 0 5px;
 }
 
 /*****************************************
@@ -152,6 +153,8 @@ nav {
 
 	width: 100%;
 	height: 10vh;
+	display: flex;
+	justify-content: center;
 }
 
 nav ul {
@@ -163,11 +166,19 @@ nav ul {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	width: 70%;
 	
 	height: 100%;
 }
+.nav-media {
+	width: 30%;
+	background: var(--background_2);
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
 
-nav a {
+.nav-link {
 	text-decoration: none;
 	
 	color: white;
@@ -181,13 +192,6 @@ nav a {
 	align-items: center;	
 }
 
-nav a:hover {
+.nav-link:hover {
 	background: darkred;
-}
-
-
-.gg-facebook{
-	background: white;
-	color: white;
-	border: solid;s
 }
