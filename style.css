@@ -116,12 +116,16 @@ body {
 	display: flex;
 	margin: 0 10px;
 
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
 }
 
 .bar-html {
 	background: blue;
 	width: 90%;
 	height: 50px;
+
 }
 
 .bar-css {

@@ -88,6 +88,7 @@
 		<img class="tech_logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpngGRjYX1ca7qAADU3K6eGLj7ShQE3L2otdzfryl_Y9Ht2QRoQKYQbsXd36XIxMbYOw0&usqp=CAU">
 		<div class="bar">
 			<div class="bar-html"></div>
+			<p>90%</p>
 		</div>
 	</div>
 
@@ -95,6 +96,7 @@
 		<img class="tech_logo" src="http://1000marcas.net/wp-content/uploads/2021/02/CSS-Logo.png">
 		<div class="bar">	
 			<div class="bar-css"></div>
+			<p>70%</p>
 		</div>
 	</div>
 
@@ -102,6 +104,7 @@
 		<img class="tech_logo" src="https://ayudawp.com/wp-content/uploads/2017/01/javascript-logo-escudo.png">
 		<div class="bar">
 			<div class="bar-js"></div>
+			<p>70%</p>
 		</div>
 	</div>
 
@@ -109,6 +112,7 @@
 		<img class="tech_logo" src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg">
 		<div class="bar">			
 			<div class="bar-php"></div>
+			<p>60%</p>
 		</div>
 	</div>
 
@@ -116,6 +120,7 @@
 		<img class="tech_logo" src="https://blog.desafiolatam.com/wp-content/uploads/2018/05/sql-logo.png">
 		<div class="bar">		
 			<div class="bar-sql"></div>
+			<p>45%</p>
 		</div>
 	</div>
 
