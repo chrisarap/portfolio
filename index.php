@@ -6,6 +6,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt>
 	<meta charset="utf-8">
+	<link href='https://css.gg/facebook.css' rel='stylesheet'>
 </head>
 <body>
 
@@ -102,15 +103,21 @@
 </section>
 
 <section id="section-contact" class="section">
-	<img class="contact-img" src="http://assets.stickpng.com/images/584ac2d03ac3a570f94a666d.png">
-	<img class="contact-img" src="https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.png"> 
-	<img class="contact-img" src="https://camo.githubusercontent.com/5334ac63cec7844521712c1f88727711dc1dc6a8b2a6ea85612408869f8dfef9/687474703a2f2f7777772e736f66746c61622e6e7475612e67722f7e6e69636b69652f696d616765732f6c6f676f2f636f6465776172732e706e67"> 
-	<img class="contact-img" src="https://image.flaticon.com/icons/png/512/174/174857.png"> 
+
+	
+	<a href="">
+		<img class="contact-img" src="http://assets.stickpng.com/images/584ac2d03ac3a570f94a666d.png">
+	</a>
+
+	
+	<a href="">
+		<img class="contact-img" src="https://image.flaticon.com/icons/png/512/174/174857.png">
+	</a>
 	<a href="https://wa.link/aiw58w" target="_blank">
 		<img class="contact-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/294px-WhatsApp_logo-color-vertical.svg.png">
 	</a>
-	<a href="mailto:<nowiki>agentavery@sample.com?">
-		<img class="contact-img" src="https://www.logo.wine/a/logo/Gmail/Gmail-Logo.wine.svg" style="border: solid;">	
+	<a href="mailto:carteaga460@gmail.com?">
+		<img class="contact-img" src="https://i1.wp.com/9to5google.com/wp-content/uploads/sites/4/2020/10/workspace-new-gmail-icon.png?ssl=1">	
 	</a>
 	<a href="https://msng.link/o/?chrisarap=tg">
 		<img class="contact-img" src="http://assets.stickpng.com/images/5842a8fba6515b1e0ad75b03.png">	

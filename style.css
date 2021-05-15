@@ -1,5 +1,10 @@
+:root {
+	--background_1: #121212;
+	--background_2: #333333;
+
+}
+
 body {
-	background: green;
 	font-family: 'ubuntu';
 	margin: 10vh 0 0 0;
 }
@@ -13,7 +18,7 @@ body {
 	justify-content: center;
 	align-items: center;
 
-	background: lightblue;
+	background: var(--background_1);
 	height: 100vh;
 }
 
@@ -26,7 +31,7 @@ body {
 ******************************************/
 
 #section-work {
-	background: darkred;
+	background: var(--background_2);
 	
 	display: flex;
 	justify-content: center;
@@ -81,7 +86,7 @@ body {
 ******************************************/
 
 #section-tech {
-	background: blue;
+	background: var(--background_1);
 
 	display: flex;
 	justify-content: center;
@@ -91,8 +96,8 @@ body {
 }
 
 .tech_logo {
-	width: 200px;
-	height: 200px;
+	width: 100px;
+	height: 100px;
 }
 
 /*****************************************
@@ -100,7 +105,7 @@ body {
 ******************************************/
 
 #section-certificate {
-	background: orange;
+	background: var(--background_1);
 
 	display: flex;
 	justify-content: center;
@@ -112,7 +117,7 @@ body {
 
 .certificate {
 	width: 400px;
-	height: 400px;
+	height: 350px;
 	margin: 10px;
 }
 
@@ -122,7 +127,7 @@ body {
 ******************************************/
 
 #section-contact {
-	background: blue;
+	background: var(--background_1);
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -133,6 +138,7 @@ body {
 .contact-img {
 	width: 100px;
 	height: 100px;
+	border-radius: 50%;
 }
 
 /*****************************************
@@ -165,7 +171,7 @@ nav a {
 	text-decoration: none;
 	
 	color: white;
-	background:  #333;
+	background: var(--background_2);
 	
 	width: 25%;
 	height: 100%;
@@ -180,3 +186,8 @@ nav a:hover {
 }
 
 
+.gg-facebook{
+	background: white;
+	color: white;
+	border: solid;s
+}
