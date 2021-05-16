@@ -132,28 +132,45 @@
 </section>
 
 <section id="section-certificate" >
-	<a target="_blank" href="https://www.freecodecamp.org/certification/chrisar/responsive-web-design">
-		<img class="certificate" src="img/certificates/responsive web design.png">
-	</a>
-	<a target="_blank" href="https://www.freecodecamp.org/certification/chrisar/javascript-algorithms-and-data-structures">
-		<img class="certificate" src="img/certificates/js algotithms and data strutures.png">	
-	</a>
-	<a target="_blank" href="https://www.freecodecamp.org/certification/chrisar/front-end-libraries">
-		<img class="certificate" src="img/certificates/front end libraries.png">
-	</a>
-	<a target="_blank" href="https://www.freecodecamp.org/certification/chrisar/data-visualization">
-		<img class="certificate" src="img/certificates/data visualization.png">
-	</a>
-	<a target="_blank" href="https://www.freecodecamp.org/certification/chrisar/apis-and-microservices">
-		<img class="certificate" src="img/certificates/apis and microservices.png">
-	</a>
+	<h2>free code camp certificates</h2>
+	<div class="sub-certificates">
+		<a target="_blank" href="https://www.freecodecamp.org/certification/chrisar/responsive-web-design">
+			<img class="certificate" src="img/certificates/responsive web design.png">
+		</a>
+		<a target="_blank" href="https://www.freecodecamp.org/certification/chrisar/javascript-algorithms-and-data-structures">
+			<img class="certificate" src="img/certificates/js algotithms and data strutures.png">	
+		</a>
+		<a target="_blank" href="https://www.freecodecamp.org/certification/chrisar/front-end-libraries">
+			<img class="certificate" src="img/certificates/front end libraries.png">
+		</a>
+		<a target="_blank" href="https://www.freecodecamp.org/certification/chrisar/data-visualization">
+			<img class="certificate" src="img/certificates/data visualization.png">
+		</a>
+		<a target="_blank" href="https://www.freecodecamp.org/certification/chrisar/apis-and-microservices">
+			<img class="certificate" src="img/certificates/apis and microservices.png">
+		</a>
+	</div>
 </section>
 
 <section id="section-contact" class="section">
-
-	<?php 
-		media();
-	?>
+	<div class="sub-contact-about">
+		<h2>About</h2>
+		<div class="sub-sub-contact-about">
+			<img class="profile_photo" src="https://avatars.githubusercontent.com/u/72636990?v=4">
+			<p>Christian Arteaga is a web developer who lives in Venezuela</p>
+		</div>
+	</div>
+	<button>Up</button>
+	<div class="sub-contact-contact">
+		<h2>Contact</h2>
+		<p>If you want to contact whith me, below are my social pages and my email</p>
+		<div>
+			<?php 
+				media();
+			?>
+		</div>	
+	</div>
+	
 	
 
 	

@@ -1,7 +1,7 @@
 :root {
 	--background_1: #121212;
 	--background_2: #333333;
-
+	--bar-height: 25px;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
+	color: white;
 	background: var(--background_1);
 	height: 100vh;
 }
@@ -94,7 +94,6 @@ body {
 	flex-direction: column;
 
 	height: 100vh;
-	border: solid;
 }
 
 .tech_logo {
@@ -106,17 +105,17 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 10px;
+	margin: 10px 0;
 
 }
 
 .bar {
 	background: red;
-	width: 500px;
-	height: 50px;
+	width: 700px;
+	height: var(--bar-height);
 	margin: 10px 0;
 	display: flex;
-	margin: 0 10px;
+	margin: 10px 0;
 
 	display: flex;
 	justify-content: space-between;
@@ -126,32 +125,32 @@ body {
 .bar-html {
 	background: blue;
 	width: 90%;
-	height: 50px;
+	height: var(--bar-height);
 
 }
 
 .bar-css {
 	background: blue;
 	width: 70%;
-	height: 50px;
+	height: var(--bar-height);
 }
 
 .bar-js {
 	background: blue;
 	width: 70%;
-	height: 50px;
+	height: var(--bar-height);
 }
 
 .bar-php {
 	background: blue;
 	width: 60%;
-	height: 50px;
+	height: var(--bar-height);
 }
 
 .bar-sql {
 	background: blue;
 	width: 45%;
-	height: 50px;
+	height: var(--bar-height);
 }
 
 /*****************************************
@@ -160,18 +159,24 @@ body {
 
 #section-certificate {
 	background: var(--background_1);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
 
+.sub-certificates{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 	padding: 100px 0;
-
 }
 
 .certificate {
-	width: 400px;
-	height: 350px;
+	width: 300px;
+	height: 250px;
 	margin: 10px;
 }
 
@@ -184,9 +189,9 @@ body {
 	background: var(--background_1);
 	display: flex;
 	justify-content: space-around;
-	align-items: center;
-	
-	height: 90vh;
+	align-items: flex-start;
+	color: white;
+	padding: 10px;
 }
 
 .contact-img {
@@ -248,5 +253,31 @@ nav ul {
 
 .nav-link:hover {
 	background: darkred;
+}
+
+.sub-contact-about, .sub-contact-contact {
+	height: 100%;
+	padding: 0;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+	width: 50%;
+}
+
+
+.sub-sub-contact-about {
+	display: flex;
+}
+
+.sub-sub-contact-about  img {
+	height: 25%;
+	width: 25%;
+	margin: 0 20px 0 0;
+}
+
+.sub-sub-contact-about p {
+	height: 75%;
+	width: 75%;
 }
 
