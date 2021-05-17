@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<nav>
+<nav id="nav">
 	<ul>
 		<a class="nav-link" href="#section-about">
 			<li>About</li>
@@ -51,12 +51,14 @@
 </section>
 
 <section id="section-work" class="section">	
-
+	<h2>Projects</h2>
 	<div class="work-box">
 		<a class="work_link" href="http://comisionpetroleo.freecluster.eu/" target="_blank">
 			<img class="work-img" src="https://preview.redd.it/al0schdiybk51.jpg?width=1920&format=pjpg&auto=webp&s=593106abe87ade6faafaa7c68953981d929cad26">
 			<p class="work_name">UDO online</p>	
 		</a>	
+		<button>Demo</button>
+		<button>Repo</button>
 	</div>
 
 	<div class="work-box">
@@ -82,53 +84,46 @@
 		
 </section>
 
+<section>
+	<h2>About</h2>
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</p>
+<button>Download cv</button>
+</section>
+
 <section id="section-tech" class="section">
-	
+	<h2>Technologies</h2>
 	<div class="tech-box">
-		<img class="tech_logo" src="https://img-premium.flaticon.com/png/512/888/888909.png?token=exp=1621087904~hmac=fe1849cb302eaa4d892fd28cec819d7e">
-		<div class="bar">
-			<div class="bar-html"></div>
-			<p>90%</p>
-		</div>
+		<img class="tech_logo" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2017%2F07%2FHTML5_badge.png&f=1&nofb=1">
+		<p>html</p>
 	</div>
 
 	<div class="tech-box">
-		<img class="tech_logo" src="https://img-premium.flaticon.com/png/512/888/888897.png?token=exp=1621088142~hmac=cb32dfb0503c47e3c1329fbea733eea8">
-		<div class="bar">	
-			<div class="bar-css"></div>
-			<p>70%</p>
-		</div>
+		<img class="tech_logo" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmaxcdn.icons8.com%2FShare%2Ficon%2FLogos%2Fcss31600.png&f=1&nofb=1">
+		<p>css</p>
 	</div>
 
 	<div class="tech-box">
-		<img class="tech_logo" src="https://img-premium.flaticon.com/png/512/1199/1199124.png?token=exp=1621087944~hmac=7569bf3bf8e0e3400ac814b5c9ddef9b">
-		<div class="bar">
-			<div class="bar-js"></div>
-			<p>70%</p>
-		</div>
+		<img class="tech_logo" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F9%2F99%2FUnofficial_JavaScript_logo_2.svg%2F1200px-Unofficial_JavaScript_logo_2.svg.png&f=1&nofb=1">
+		<p>javascript</p>
 	</div>
 
 	<div class="tech-box">
-		<img class="tech_logo" src="https://img-premium.flaticon.com/png/512/528/528261.png?token=exp=1621087652~hmac=8837fd7e4fc66068b7b4c20d78da9e1e">
-		<div class="bar">			
-			<div class="bar-php"></div>
-			<p>60%</p>
-		</div>
+		<img class="tech_logo" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Flarge%2F2x%2Fphp-logo-png-transparent.png&f=1&nofb=1">
+		<p>php</p>
 	</div>
 
 	<div class="tech-box">
-		<img class="tech_logo" src="https://img-premium.flaticon.com/png/512/4248/4248443.png?token=exp=1621087647~hmac=6cf110cd0b3115690b734683cf1fe4c9">
-		<div class="bar">		
-			<div class="bar-sql"></div>
-			<p>45%</p>
-		</div>
+		<img class="tech_logo" src="http://assets.stickpng.com/images/58481057cef1014c0b5e4951.png">
+		<p>my sql</p>
 	</div>
 
-	
-	
-	
-	
-	
+	<div class="tech-box">
+		<img class="tech_logo" src="http://assets.stickpng.com/images/5847f981cef1014c0b5e48be.png">
+		<p>git</p>
+	</div>
+
+
 </section>
 
 <section id="section-certificate" >
@@ -149,31 +144,44 @@
 		<a target="_blank" href="https://www.freecodecamp.org/certification/chrisar/apis-and-microservices">
 			<img class="certificate" src="img/certificates/apis and microservices.png">
 		</a>
+
 	</div>
 </section>
 
-<section id="section-contact" class="section">
-	<div class="sub-contact-about">
-		<h2>About</h2>
-		<div class="sub-sub-contact-about">
-			<img class="profile_photo" src="https://avatars.githubusercontent.com/u/72636990?v=4">
-			<p>Christian Arteaga is a web developer who lives in Venezuela</p>
-		</div>
-	</div>
-	<button>Up</button>
-	<div class="sub-contact-contact">
-		<h2>Contact</h2>
-		<p>If you want to contact whith me, below are my social pages and my email</p>
-		<div>
-			<?php 
-				media();
-			?>
-		</div>	
-	</div>
-	
-	
+<div class="up-btn">
+	<a href="#section-about">
+		<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F7%2F76%2FWhite_Arrow_Up.svg%2F480px-White_Arrow_Up.svg.png&f=1&nofb=1">
+	</a>
+</div>
 
-	
+<section id="section-contact" class="section">	
+		<h2>Contact</h2>
+		
+		<div class="media-logo">
+			<a href="">
+				<img class="contact-img" src="http://assets.stickpng.com/images/584ac2d03ac3a570f94a666d.png">
+			</a>
+			
+			<a href="">
+				<img class="contact-img" src="https://image.flaticon.com/icons/png/512/174/174857.png">
+			</a>
+
+			<a href="https://wa.link/aiw58w" target="_blank">
+				<img class="contact-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/294px-WhatsApp_logo-color-vertical.svg.png">
+			</a>
+
+			<a href="mailto:carteaga460@gmail.com?">
+				<img class="contact-img" src="https://i1.wp.com/9to5google.com/wp-content/uploads/sites/4/2020/10/workspace-new-gmail-icon.png?ssl=1">	
+			</a>
+
+			<a href="https://msng.link/o/?chrisarap=tg">
+				<img class="contact-img" src="http://assets.stickpng.com/images/5842a8fba6515b1e0ad75b03.png">	
+			</a>
+
+			<a href="https://github.com/chrisarap">
+				<img class="contact-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2016%2F09%2FGitHub_logo.png&f=1&nofb=1">
+			</a>
+		</div>
 </section>
 
 </body>
