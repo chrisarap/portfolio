@@ -56,8 +56,10 @@ body {
 .work-img {
 	width: 100%;
 	height: 85%;
-	border-radius: 5% 5% 0 0;
 
+}
+.work-img:hover {
+	opacity: 0;
 }
 
 .work_name {
@@ -84,6 +86,10 @@ body {
 
 	text-decoration: none;
 	color: white;
+}
+
+.work_link:hover{
+	background-image: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
 }
 
 /*****************************************
@@ -303,3 +309,71 @@ nav ul {
 	width: 15px;
 	height: 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.example-1 {
+	position: relative;
+
+}
+
+.img-1 {
+	width: 300px;
+	height: 300px;
+
+	
+}
+
+.mask-1 {
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+opacity: 0;
+
+}
+
+
+
+.mask-1:hover {
+	opacity: 1;
+	background-color: rgba(46,157,120, 0.9);
+
+}
+
+.work-link {
+	background: red;
+	padding: 10px;
+	border-radius: 25%;
+	font-size: 2rem;
+	text-decoration: none;
+	color: white;
+	background: darkgreen;
+}
+

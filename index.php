@@ -52,35 +52,45 @@
 
 <section id="section-work" class="section">	
 	<h2>Projects</h2>
-	<div class="work-box">
-		<a class="work_link" href="http://comisionpetroleo.freecluster.eu/" target="_blank">
-			<img class="work-img" src="https://preview.redd.it/al0schdiybk51.jpg?width=1920&format=pjpg&auto=webp&s=593106abe87ade6faafaa7c68953981d929cad26">
-			<p class="work_name">UDO online</p>	
-		</a>	
-		<button>Demo</button>
-		<button>Repo</button>
+
+
+	<div class="example-1">
+		<img class="img-1" src="img/projects/udo_project.png">
+		<div class="mask-1">
+			<h2>UDO online</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada.</p>
+			<div class="work-links-box">
+				<a href="http://comisionpetroleo.freecluster.eu/"  				class="work-link" target="_blank">Demo</a>
+				<a href="https://github.com/chrisarap/udo" 	class="work-link" target="_blank">Repo</a>
+			</div>
+		</div>	
 	</div>
 
-	<div class="work-box">
-		<a class="work_link" href="../udo/index.php" target="_blank">
-			<img class="work-img projects" src="img/projects/udo_project.png">
-			<p class="work_name">UDO localhost</p>	
-		</a>
+	<div class="example-1">
+		<img class="img-1" src="img/projects/udo_project.png">
+		<div class="mask-1">
+			<h2>UDO localhost</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada.</p>
+			<div class="work-links-box">
+				<a href="../udo/index.php"  				class="work-link" target="_blank">Demo</a>
+				<a href="https://github.com/chrisarap/udo" 	class="work-link" target="_blank">Repo</a>
+			</div>
+		</div>	
+	</div>
+
+	<div class="example-1">
+		<img class="img-1" src="https://preview.redd.it/al0schdiybk51.jpg?width=1920&format=pjpg&auto=webp&s=593106abe87ade6faafaa7c68953981d929cad26">
+		<div class="mask-1">
+			<h2>Project 3</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada.</p>
+			<div class="work-links-box">
+				<a href="../udo/index.php"  				class="work-link" target="_blank">Demo</a>
+				<a href="https://github.com/chrisarap/udo" 	class="work-link" target="_blank">Repo</a>
+			</div>
+		</div>	
 	</div>
 			
-	<div class="work-box">
-		<a class="work_link" href="" target="_blank">
-			<img class="work-img" src="https://preview.redd.it/al0schdiybk51.jpg?width=1920&format=pjpg&auto=webp&s=593106abe87ade6faafaa7c68953981d929cad26">
-			<p class="work_name">project #3</p>	
-		</a>
-	</div>
 
-	<div class="work-box">
-		<a class="work_link" href="" target="_blank">
-			<img class="work-img" src="https://preview.redd.it/al0schdiybk51.jpg?width=1920&format=pjpg&auto=webp&s=593106abe87ade6faafaa7c68953981d929cad26">
-			<p class="work_name">project #4</p>	
-		</a>
-	</div>
 		
 </section>
 
