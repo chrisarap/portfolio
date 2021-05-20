@@ -12,7 +12,11 @@
 <nav id="nav">
 	<ul>
 		<a class="nav-link" href="#section-start">
-			<li>< CA/ ></li>
+			<li>
+				<span> <  </span> 
+				CA 
+				<span> /> </span>
+			</li>
 		</a>
 		
 		<a class="nav-link" href="#section-work">
@@ -26,7 +30,7 @@
 		<a class="nav-link" href="#section-tech">
 			<li>Technologies</li>
 		</a>
-		
+
 		<a class="nav-link" href="#section-certificate">
 			<li>Certificates</li>
 		</a>
