@@ -1,8 +1,0 @@
-<?php 
-	function media(){
-		echo 
-			'
-
-			';
-	}
-?>

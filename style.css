@@ -16,7 +16,7 @@ body {
 /*****************************************
 ************  about  *********************
 ******************************************/
-#section-about {
+#section-start {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -24,6 +24,8 @@ body {
 	color: white;
 	background-image: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
 	height: 100vh;
+		background-color: rgba(46,157,120, 0.9);
+
 }
 
 
@@ -213,59 +215,6 @@ body {
 	margin: 0 5px;
 }
 
-/*****************************************
-********************  nav ****************
-******************************************/
-
-nav {
-	position: fixed;
-	top: 0;
-	left: 0;
-
-	width: 100%;
-	height: 10vh;
-	display: flex;
-	justify-content: center;
-}
-
-nav ul {
-	padding: 0;
-	margin: 0;
-
-	list-style: none;
-	
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	width: 70%;
-	
-	height: 100%;
-}
-.nav-media {
-	width: 30%;
-	background: var(--background_2);
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-}
-
-.nav-link {
-	text-decoration: none;
-	
-	color: white;
-	background: var(--background_2);
-	
-	width: 25%;
-	height: 100%;
-
-	display: flex;
-	justify-content: center;
-	align-items: center;	
-}
-
-.nav-link:hover {
-	background: darkred;
-}
 
 .sub-contact-about, .sub-contact-contact {
 	height: 100%;
@@ -315,6 +264,60 @@ nav ul {
 }
 
 
+/*****************************************
+********************  nav ****************
+******************************************/
+
+#nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 10vh;
+
+	display: flex;
+	justify-content: center;
+}
+
+#nav ul {
+	padding: 0;
+	margin: 0;
+
+	list-style: none;
+	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+	width: 100%;	
+	height: 100%;
+}
+.nav-media {
+	width: 30%;
+	background: var(--background_2);
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav-link {
+	text-decoration: none;
+	
+	color: white;
+	background: var(--background_2);
+	
+	width: 25%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+.nav-link:hover {
+	background: darkred;
+}
 
 
 

@@ -6,42 +6,38 @@
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt>
 	<meta charset="utf-8">
-	<?php
-		include "functions.php";
-	?> 
 </head>
 <body>
 
 <nav id="nav">
 	<ul>
-		<a class="nav-link" href="#section-about">
-			<li>About</li>
+		<a class="nav-link" href="#section-start">
+			<li>< CA/ ></li>
 		</a>
-
+		
 		<a class="nav-link" href="#section-work">
 			<li>Work</li>
 		</a>
 
-		<a class="nav-link" href="#section-certificate">
-			<li>Certificates</li>
-		</a>
+		<a class="nav-link" href="#section-about">
+			<li>About</li>
+		</a>		
 
 		<a class="nav-link" href="#section-tech">
 			<li>Technologies</li>
+		</a>
+		
+		<a class="nav-link" href="#section-certificate">
+			<li>Certificates</li>
 		</a>
 
 		<a class="nav-link" href="#section-contact">
 			<li>Contact</li>
 		</a>
 	</ul>
-	<div class="nav-media">
-		<?php 
-			media();
-		?>	
-	</div>
 </nav>
 
-<section id="section-about" class="section">
+<section id="section-start" class="section">
 	<h1>Hi, I'm Christian Arteaga</h1>
 	<p>A Web Developer</p>
 	<img 
@@ -100,7 +96,7 @@
 		
 </section>
 
-	<section>
+	<section id="section-about">
 		<h2>About</h2>
 		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 	<button>Download cv</button>
