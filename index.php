@@ -45,56 +45,59 @@
 	<h1>Hi, I'm Christian Arteaga</h1>
 	<p>A Web Developer</p>
 	<img 
-		class="profile_photo" 
+		class="profile-photo" 
 		src="https://avatars.githubusercontent.com/u/72636990?v=4"
 	>
 </section>
 
 <section id="section-work" class="section">	
 	<h2>Projects</h2>
+	<div>
+		<div class="example-1">
+			<img class="img-1" src="img/projects/udo_project.png">
+			<div class="mask-1">
+				<h2>UDO online</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada.</p>
+				<div class="work-links-box">
+					<a href="http://comisionpetroleo.freecluster.eu/"  				class="work-link" target="_blank">Demo</a>
+					<a href="https://github.com/chrisarap/udo" 	class="work-link" target="_blank">Repo</a>
+				</div>
+			</div>	
+		</div>
 
+		<div class="example-1">
+			<img class="img-1" src="img/projects/udo_project.png">
+			<div class="mask-1">
+				<h2>UDO localhost</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada.</p>
+				<div class="work-links-box">
+					<a href=""  				class="work-link" target="_blank">html</a>
+					<a href=""  				class="work-link" target="_blank">css</a>
+					<a href=""  				class="work-link" target="_blank">php</a>
+					<a href=""  				class="work-link" target="_blank">sql</a>
+				</div>
+				<div class="work-links-box">
+					<a href="../udo/index.php"  				class="work-link" target="_blank">Demo</a>
+					<a href="https://github.com/chrisarap/udo" 	class="work-link" target="_blank">Repo</a>
+				</div>
+			</div>	
+		</div>
 
-	<div class="example-1">
-		<img class="img-1" src="img/projects/udo_project.png">
-		<div class="mask-1">
-			<h2>UDO online</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada.</p>
-			<div class="work-links-box">
-				<a href="http://comisionpetroleo.freecluster.eu/"  				class="work-link" target="_blank">Demo</a>
-				<a href="https://github.com/chrisarap/udo" 	class="work-link" target="_blank">Repo</a>
-			</div>
-		</div>	
+		<div class="example-1">
+			<img class="img-1" src="https://preview.redd.it/al0schdiybk51.jpg?width=1920&format=pjpg&auto=webp&s=593106abe87ade6faafaa7c68953981d929cad26">
+			<div class="mask-1">
+				<h2>Project 3</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada.</p>
+				<div class="work-links-box">
+					<a href="../udo/index.php"  				class="work-link" target="_blank">Demo</a>
+					<a href="https://github.com/chrisarap/udo" 	class="work-link" target="_blank">Repo</a>
+				</div>
+			</div>	
+		</div>
 	</div>
 
-	<div class="example-1">
-		<img class="img-1" src="img/projects/udo_project.png">
-		<div class="mask-1">
-			<h2>UDO localhost</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada.</p>
-			<div class="work-links-box">
-				<a href=""  				class="work-link" target="_blank">html</a>
-				<a href=""  				class="work-link" target="_blank">css</a>
-				<a href=""  				class="work-link" target="_blank">php</a>
-				<a href=""  				class="work-link" target="_blank">sql</a>
-			</div>
-			<div class="work-links-box">
-				<a href="../udo/index.php"  				class="work-link" target="_blank">Demo</a>
-				<a href="https://github.com/chrisarap/udo" 	class="work-link" target="_blank">Repo</a>
-			</div>
-		</div>	
-	</div>
 
-	<div class="example-1">
-		<img class="img-1" src="https://preview.redd.it/al0schdiybk51.jpg?width=1920&format=pjpg&auto=webp&s=593106abe87ade6faafaa7c68953981d929cad26">
-		<div class="mask-1">
-			<h2>Project 3</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada.</p>
-			<div class="work-links-box">
-				<a href="../udo/index.php"  				class="work-link" target="_blank">Demo</a>
-				<a href="https://github.com/chrisarap/udo" 	class="work-link" target="_blank">Repo</a>
-			</div>
-		</div>	
-	</div>
+		
 			
 
 		
