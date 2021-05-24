@@ -86,8 +86,7 @@ body {
 	align-items: center;
 
 	color: var(--fontcolor);
-	background-image: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
-	
+	background-image: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");	
 	height: 100vh;
 }
 
@@ -105,17 +104,86 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
+	flex-direction: column;
+
 	padding: 100px 0;
 }
 
-
 .work-box {
-	width: 300px;
-	height: 350px;
-	
-	margin: 10px;	
+	display: flex;
+	flex-wrap: wrap;
 }
+
+.project {
+	position: relative;
+	margin: 10px;
+}
+
+.img-project {
+	width: 300px;
+	height: 300px;	
+}
+
+.mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	opacity: 0;
+}
+
+.mask:hover {
+	opacity: 1;
+	background-color: rgba(46,157,120, 0.9);
+}
+
+.mask:hover .work-links-box a:hover {
+	background: var(--highlight);
+}
+
+.work-link {
+	padding: 5px;
+	margin: 5px;
+
+	border-radius: 10%;
+
+	text-decoration: none;
+	
+	color: var(--fontcolor);
+	background: var(--background);
+}
+
+.work-links-box {
+	display: flex;
+}
+
+.work-icon {
+	width: 25px;
+	height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .work-img {
 	width: 100%;
@@ -346,54 +414,8 @@ body {
 
 
 
-.example-1 {
-	position: relative;
-
-}
-
-.img-1 {
-	width: 300px;
-	height: 300px;
-
-	
-}
-
-.mask-1 {
-position: absolute;
-top: 0;
-left: 0;
-bottom: 0;
-right: 0;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-opacity: 0;
-
-}
 
 
-
-.mask-1:hover {
-	opacity: 1;
-	background-color: rgba(46,157,120, 0.9);
-
-}
-
-.mask-1:hover .work-links-box a:hover {
-	background: red;
-
-}
-
-.work-link {
-	background: red;
-	padding: 10px;
-	border-radius: 25%;
-	font-size: 2rem;
-	text-decoration: none;
-	color: white;
-	background: darkgreen;
-}
 
 #section-about-tech {
 	display: flex;
