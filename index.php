@@ -85,42 +85,45 @@
 	</div>
 </section>
 
-	<section id="section-about">
-		<h2>About</h2>
-		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<section id="section-about">
+	<h2>About</h2>
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 	<button>Download cv</button>
 </section>
 
 <section id="section-tech" class="section">
 	<h2>Technologies</h2>
-	<div class="tech-box">
-		<img class="tech_logo" src="img/icons/html.png">
-		<p>html</p>
-	</div>
 
-	<div class="tech-box">
-		<img class="tech_logo" src="img/icons/css.png">
-		<p>css</p>
-	</div>
+	<div class="tech-square">
+		<div class="tech-box">
+			<img class="tech_logo" src="img/icons/html.png">
+			<p>html</p>
+		</div>
 
-	<div class="tech-box">
-		<img class="tech_logo" src="img/icons/js.png">
-		<p>javascript</p>
-	</div>
+		<div class="tech-box">
+			<img class="tech_logo" src="img/icons/css.png">
+			<p>css</p>
+		</div>
 
-	<div class="tech-box">
-		<img class="tech_logo" src="img/icons/php.png">
-		<p>php</p>
-	</div>
+		<div class="tech-box">
+			<img class="tech_logo" src="img/icons/js.png">
+			<p>javascript</p>
+		</div>
 
-	<div class="tech-box">
-		<img class="tech_logo" src="img/icons/sql.png">
-		<p>my sql</p>
-	</div>
+		<div class="tech-box">
+			<img class="tech_logo" src="img/icons/php.png">
+			<p>php</p>
+		</div>
 
-	<div class="tech-box">
-		<img class="tech_logo" src="img/icons/git.png">
-		<p>git</p>
+		<div class="tech-box">
+			<img class="tech_logo" src="img/icons/sql.png">
+			<p>my sql</p>
+		</div>
+
+		<div class="tech-box">
+			<img class="tech_logo" src="img/icons/git.png">
+			<p>git</p>
+		</div>
 	</div>
 </section>
 
