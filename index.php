@@ -58,7 +58,7 @@
 			<img class="img-project" src="img/projects/udo_project.png">
 			<div class="mask">
 				<h2>UDO Commission</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada.</p>
+				<p>Thesis committee of my university. Students can view the status of their theses from home.</p>
 				
 				<div class="work-links-box">
 					<p class="work-link">html 	</p>
