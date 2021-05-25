@@ -185,7 +185,6 @@ body {
 	align-items: center;
 	flex-direction: column;
 
-	
 	padding: 50px 0;
 }
 
@@ -194,10 +193,8 @@ body {
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
-
 	
 	width: 100%;
-
 }
 
 .tech_logo {
@@ -209,9 +206,9 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 10px 0;
 	flex-direction: column;
 	
+	margin: 10px 0;
 	padding: 50px;
 
 	width: 60px;
@@ -221,51 +218,6 @@ body {
 .tech-box:hover{
 	background: var(--highlight);
 	border-radius: 25%;
-
-}
-
-.bar {
-	background: red;
-	width: 700px;
-	height: var(--bar-height);
-	margin: 10px 0;
-	display: flex;
-	margin: 10px 0;
-
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-}
-
-.bar-html {
-	background: blue;
-	width: 90%;
-	height: var(--bar-height);
-
-}
-
-.bar-css {
-	background: blue;
-	width: 70%;
-	height: var(--bar-height);
-}
-
-.bar-js {
-	background: blue;
-	width: 70%;
-	height: var(--bar-height);
-}
-
-.bar-php {
-	background: blue;
-	width: 60%;
-	height: var(--bar-height);
-}
-
-.bar-sql {
-	background: blue;
-	width: 45%;
-	height: var(--bar-height);
 }
 
 /*****************************************
