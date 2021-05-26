@@ -128,8 +128,8 @@
 </section>
 
 <section id="section-certificate" >
-	<h2>free code camp certificates</h2>
-	<div class="sub-certificates">
+	<h2>Free Code Camp Certificates</h2>
+	<div class="certificate-box">
 		<a target="_blank" href="https://www.freecodecamp.org/certification/chrisar/responsive-web-design">
 			<img class="certificate" src="img/certificates/responsive web design.png">
 		</a>
