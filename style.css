@@ -274,13 +274,15 @@ body {
 ******************************************/
 
 #section-contact {
-	background: var(--background_2);
+	color: var(--fontcolor);
+	background: var(--background);
+
 	display: flex;
-	justify-content: space-around;
-	align-items: flex-start;
-	color: white;
-	padding: 10px;
+	justify-content: center;
+	align-items: center;
 	flex-direction: column;
+	
+	padding: 50px 0;
 }
 
 .contact-img {
@@ -289,72 +291,22 @@ body {
 	margin: 0 5px;
 }
 
-
-.sub-contact-about, .sub-contact-contact {
-	height: 100%;
-	padding: 0;
-	display: flex;
-	justify-content: flex-start;
-	align-items: flex-start;
-	flex-direction: column;
-	width: 50%;
-}
-
-
-.sub-sub-contact-about {
-	display: flex;
-}
-
-.sub-sub-contact-about  img {
-	height: 25%;
-	width: 25%;
-	margin: 0 20px 0 0;
-}
-
-.sub-sub-contact-about p {
-	height: 75%;
-	width: 75%;
-}
-
 .media-logo {
 	display: flex;
-	width: 100%;
 	justify-content: space-around;
+
+	width: 80%;
 }
-
-
 
 /*****************************************
 ****************  about  *****************
 ******************************************/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #section-about-tech {
 	display: flex;
 	border: solid;
 }
+
 #section-about-tech section {
 	
 	border: solid;
