@@ -17,7 +17,7 @@ body {
 	background: var(--background_1);
 
 	display: flex;
-	flex-direction: column;	
+	flex-direction: column;
 }
 
 /*****************************************
@@ -28,6 +28,7 @@ body {
 	position: fixed;
 	top: 0;
 	left: 0;
+	z-index: 1;
 
 	width: 100%;
 	height: 10vh;
@@ -302,14 +303,20 @@ body {
 ****************  about  *****************
 ******************************************/
 
-#section-about-tech {
+#section-about {
+	align-self: center;
+
 	display: flex;
-	border: solid;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+	width: 80%;
 }
 
-#section-about-tech section {
-	
-	border: solid;
-	border-color: blue;
-	width: 50%;
+#section-about p a {
+	font-weight: bold;
+	text-decoration: none;
+	color: var(--highlight);	
 }
